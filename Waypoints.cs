@@ -3,7 +3,7 @@ using UnityEngine;
 public class Waypoints : MonoBehaviour
 {
     [SerializeField] private Vector3[] _places;
-    [SerializeField]private float _speed = 3;
+    [SerializeField] private float _speed = 3;
     
     private int _placeIndex;
     private Vector3 _positionToGo;
